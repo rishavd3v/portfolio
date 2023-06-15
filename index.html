@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishav - Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(11, 2, 40);
+            color: rgb(255, 255, 255);
+            /* font-family: 'Poppins', sans-serif; */
+            font-family: 'Rubik', sans-serif;
+        }
+        nav{
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(18, 9, 56);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0px 25px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(180, 102, 225);
+        }
+        .left{
+            font-size: 1.4rem;
+        }
+        .firstSection{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 60px 0;
+
+        }
+        .firstSection > div{
+            width: 30%;
+
+        }
+        .firstSection .left{
+            font-size: 2.5rem;
+        }
+        .name{
+            color: rgb(157, 53, 255);
+            font-weight: 400;
+        }
+        button{
+            border-radius: 6px;
+            padding: 12px 15px;
+            background-color: rgb(11, 2, 40);
+            font-size: 15px;
+            color: white;
+            border: solid rgb(157, 53, 225);
+            
+        }
+        button:hover{
+            cursor: pointer;
+            border: solid rgb(11,2,40);
+            background-color: rgb(157, 53, 225)
+        }
+        .social{
+            margin: 50px 0;
+        }
+        .social ul{
+            list-style: none;
+            display: flex;
+        }
+        .social ul li{
+            margin: 0px 20px 0 0;
+        }
+        .github button{
+            padding: 0.8em 22px;
+        }
+
+        .firstSection .right {
+            margin: 0px 100px 0 0;
+        }
+        
+        .firstSection .right img{
+            width:130%;
+            
+        }
+        #element{
+            color:rgb(157, 53, 255);
+        }
+        .secondSection{
+            max-width:80vw ;
+            margin: auto;
+            padding: 0px 0px 100px 0px;
+        }
+        main hr{
+            border: 0;
+            background: rgb(157, 53, 255);
+            height: 1px;
+            margin: 80px 80px;
+        }
+        .secondSection h1{
+            font-size: 1.5rem;
+        }
+        footer{
+            background-color:rgb(18, 9, 56);
+            
+        }
+        .footer{
+            display: flex;
+            padding: 20px;
+            justify-content: space-evenly;
+
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer a{
+            text-decoration: none;
+
+        }
+        .rights{
+            text-align: center;
+            padding: 20px;
+            color: grey;
+           
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="firstSection">
+            <div class="left">
+                Hi, My name is <span class="name">Rishav</span>
+                <div> I am a Passionate</div>
+                <span id="element"></span>
+                <div class="social">
+                    <ul>
+                        <li class="linkedin"><a href="https://linkedin.com/in/rishav01" target="_blank"><button>LinkedIn</button></a></li>
+                        <li class="github"><a href="https://github.com/rishavd3v"target="_blank"><button>Github</button></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <img src="image1.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>Developer Portfolio</h1>
+        </section>
+    
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footerFirst">
+                <h3>Rishav Portfolio</h3>
+            </div>
+            <div class="footerSecond">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="footerThird">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="footerFourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+        </div>
+        <div class="rights">
+            &#169; www.github.com/rishavd3v
+        </div>
+    </footer>
+
+
+    <!-- Type animation script  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphics Designer', 'Video Editor'],
+          typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
