@@ -1,2 +1,2 @@
-# Demo Portfolio Website
-Created to learn the fundamentals of HTML, CSS and JS.
+# Portfolio Website  
+Created to practise the fundamentals of HTML, CSS and JS.
