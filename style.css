@@ -97,6 +97,15 @@ main .social ul li{
     margin: auto;
     padding: 0px 0px 100px 0px;
 }
+.secondSection p{
+    font-weight: 100;
+    
+}
+.secondSection h1{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
 main hr{
     border: 0;
     background: rgb(153, 0, 255);
@@ -116,20 +125,6 @@ footer{
     padding: 20px;
     justify-content: space-evenly;
 
-}
-.footer ul{
-    list-style: none;
-}
-.footer a{
-    text-decoration: none;
-
-}
-.footerFirst h5{
-    padding: 2px 0;
-}
-.footerFirst p{
-    color: grey;
-    margin: 0px;
 }
 footer hr{
     border: 0px;
@@ -156,9 +151,6 @@ footer .social ul li{
 .social ul li a{
     text-decoration: none;
     color: white;
-    /* border: solid 1px white;
-    padding: 5px 7px;
-    border-radius: 3px; */
 }
 .linkedin:hover{
     color: skyblue;
@@ -168,5 +160,5 @@ footer .social ul li{
     color: grey;
 }
 .email:hover{
-    color: orangered;
+    color: rgb(234, 36, 36);
 }
